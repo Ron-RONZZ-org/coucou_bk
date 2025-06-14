@@ -1,0 +1,21 @@
+font_size = 21
+username = "Ron!"
+language_code = "fr"
+database_path = "/media/ron/Ronzz_Core/nextCloudSync/mindiverse-life/coucou/coucou/tatoeba-fr.db"
+
+[default_moods]
+Infinitif = true
+Indicatif = true
+Conditionnel = false
+Subjonctif = false
+Imperatif = false
+Participe = true
+
+[default_tenses]
+"Infinitif - Infinitif Présent" = true
+"Indicatif - Présent" = true
+"Indicatif - Passé Simple" = true
+"Indicatif - Imparfait" = true
+"Indicatif - Futur" = true
+"Participe - Participe Présent" = true
+"Participe - Participe Passé" = true
