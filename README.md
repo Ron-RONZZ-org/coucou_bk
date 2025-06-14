@@ -62,13 +62,15 @@ We have to duct tape our way out with `numpy (==1.26.0)`, overriding the interna
 - Dependencies listed in `pyproject.toml`
 
 ### Install from Source
+
 ```bash
 # Clone the repository
 git clone <repository-url>
 cd coucou
 
-# Install dependencies with Poetry (recommended)
+# Install dependencies with Poetry (recommended) and activate virtual environment
 poetry install
+eval $(poetry env activate)
 
 # Or with pip
 pip install -r requirements.txt
